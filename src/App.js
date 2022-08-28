@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './style_sheets/App.css';
+import { AB1, AB3, ABX } from './Artboards';
+import { P1, P2, P3, P4, P5 } from './Article';
+import background from './more-assets/bg5x.png';
+import Footer from './Footer';
+import { Focus } from './Focus';
+import React, { useRef, useEffect, useState } from 'react';
+import useList from './useList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='content'>
+        <img id='bg' src={background} alt='background' />
+        <AB1 />
+        <AB3 />
+        <P1 />
+        <P2 />
+        <P3 />
+        <P4 />
+        <P5 />
+        <AB3 />
+        {/* <Focus obj={useList()[0]} /> */}
+        <Footer />
+      </div>
     </div>
   );
 }

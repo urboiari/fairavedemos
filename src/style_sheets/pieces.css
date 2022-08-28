@@ -1,0 +1,74 @@
+.AB {
+  position: relative;
+  height: max-content;
+  margin: -1em auto;
+}
+
+#AB1 {
+  position: absolute;
+  overflow: hidden;
+  height: 400%;
+  width: 100vw;
+  margin: -1em auto;
+  z-index: 2;
+}
+
+.AB > #sticky img {
+  position: absolute;
+  width: 130vw;
+  left: 90px;
+  top: 45vh;
+  z-index: -10;
+}
+
+.AB > #yt_vis img {
+  position: absolute;
+  /* height: 7%; */
+  width: 91vw;
+  top: 70vh;
+  left: 5vw;
+  z-index: -11;
+}
+
+.AB > #bordeaux_cover img {
+  position: absolute;
+  width: 200px;
+  top: 118vh;
+  left: 5vw;
+}
+
+.AB > #lamb img {
+  position: absolute;
+  /* height: 10%; */
+  width: 113vw;
+  top: 130vh;
+  left: 10vw;
+}
+
+.AB > #cthemess_cover img {
+  /* display: none; */
+  position: absolute;
+  width: 300px;
+  top: 200vh;
+  right: 5vw;
+}
+
+.AB > #balloon_heart img {
+  position: absolute;
+  width: 113vw;
+  top: 160vh;
+  right: 20vw;
+}
+
+#AB3 {
+  position: relative;
+  height: 100vw;
+  margin: -1em auto;
+  margin-bottom: -70px;
+  z-index: 1;
+}
+
+.AB > #house_gif img {
+  position: absolute;
+  width: 100%;
+}
