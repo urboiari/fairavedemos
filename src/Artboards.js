@@ -6,7 +6,7 @@ import useList from './useList';
 
 //AB1 is made up of draggable artboards (main board that floats over text)
 const AB1 = () => {
-  const pieces = useList().slice(0, 5);
+  const pieces = useList().slice(0, 6);
 
   return (
     <div className='AB' id='AB1'>
@@ -16,11 +16,11 @@ const AB1 = () => {
 };
 
 // AB3 is made up of static components (flagship piece)
-const AB3 = () => {
+const AB3 = (position) => {
   const pieces = useList().slice(6);
 
   return (
-    <div className='AB' id='AB3'>
+    <div className={'AB ' + position.position} id='AB3'>
       <Piece pieces={pieces} />
     </div>
   );

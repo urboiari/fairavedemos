@@ -1,6 +1,6 @@
 import './style_sheets/App.css';
 import { AB1, AB3, ABX } from './Artboards';
-import { P1, P2, P3, P4, P5 } from './Article';
+import Article, { P1, P2, P3, P4, P5 } from './Article';
 import background from './more-assets/bg5x.png';
 import Footer from './Footer';
 import { Focus } from './Focus';
@@ -13,13 +13,14 @@ function App() {
       <div className='content'>
         <img id='bg' src={background} alt='background' />
         <AB1 />
-        <AB3 />
-        <P1 />
+        <AB3 position='front' />
+        {/* <P1 />
         <P2 />
         <P3 />
         <P4 />
-        <P5 />
-        <AB3 />
+        <P5 /> */}
+        <Article />
+        <AB3 position='back' />
         {/* <Focus obj={useList()[0]} /> */}
         <Footer />
       </div>

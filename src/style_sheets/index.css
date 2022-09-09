@@ -3,6 +3,7 @@
 
 .content {
   width: 100vw;
+  height: 100%;
   overflow: hidden;
   /* background-image: url(../more-assets/bg5xtransparent.png); */
 }
@@ -60,4 +61,12 @@ img {
   display: flex;
   font-size: 12pt;
   margin: 10px 25px;
+}
+
+@media only screen and (min-width: 990px) {
+  .footer {
+    margin-bottom: 3vw;
+    margin-top: 70px;
+    margin-left: 1vw;
+  }
 }

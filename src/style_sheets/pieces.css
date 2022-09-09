@@ -7,7 +7,7 @@
 #AB1 {
   position: absolute;
   overflow: hidden;
-  height: 400%;
+  height: 370%;
   width: 100vw;
   margin: -1em auto;
   z-index: 2;
@@ -71,4 +71,85 @@
 .AB > #house_gif img {
   position: absolute;
   width: 100%;
+}
+
+@media only screen and (min-width: 990px) {
+  #AB3 {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    z-index: 9999;
+    margin: -5vw 0 -5vw 1vw;
+  }
+
+  #AB1 {
+    height: 450%;
+  }
+
+  .AB > #house_gif img {
+    position: absolute;
+    width: 100%;
+  }
+
+  .AB > #sticky img {
+    position: absolute;
+    width: 500px;
+    left: 32vw;
+    top: 2vw;
+    z-index: -10;
+  }
+
+  .AB > #yt_vis img {
+    position: absolute;
+    /* height: 7%; */
+    width: 500px;
+    top: 5vw;
+    left: 70vw;
+    z-index: -11;
+  }
+
+  .AB > #bordeaux_cover img {
+    position: absolute;
+    width: 700px;
+    top: 20vw;
+    left: 45vw;
+  }
+
+  .AB > #lamb img {
+    position: absolute;
+    /* height: 10%; */
+    width: 350px;
+    top: 30vw;
+    left: 30vw;
+  }
+
+  .AB > #cthemess_cover img {
+    /* display: none; */
+    position: absolute;
+    width: 500px;
+    top: 80vw;
+    left: 25vw;
+  }
+
+  .AB > #balloon_heart img {
+    position: absolute;
+    width: 55vw;
+    top: 48vw;
+    right: -5vw;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #AB1 {
+    height: 330%;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  #AB1 {
+    height: 280%;
+  }
+  .back {
+    display: none;
+  }
 }

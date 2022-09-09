@@ -28,3 +28,15 @@ h5 {
   font-size: 22pt;
   margin: 0 25px;
 }
+
+@media only screen and (min-width: 990px) {
+  .article {
+    width: 30vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+  }
+
+  h4 {
+    margin: 25px;
+  }
+}
