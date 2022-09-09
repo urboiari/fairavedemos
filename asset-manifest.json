@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fairavedemos/static/css/main.2b550390.css",
-    "main.js": "/fairavedemos/static/js/main.d3cee006.js",
+    "main.css": "/fairavedemos/static/css/main.dcf62a37.css",
+    "main.js": "/fairavedemos/static/js/main.dee7996b.js",
     "static/js/787.654a28c9.chunk.js": "/fairavedemos/static/js/787.654a28c9.chunk.js",
     "static/media/glass-house-nm.gif": "/fairavedemos/static/media/glass-house-nm.5a81f4c24255cd6188e8.gif",
     "static/media/cthemess-cover.png": "/fairavedemos/static/media/cthemess-cover.8a3092f49168c5ed3dac.png",
@@ -13,12 +13,12 @@
     "static/media/bg5x.png": "/fairavedemos/static/media/bg5x.ea78a669ac35d31d25e0.png",
     "static/media/article.txt": "/fairavedemos/static/media/article.b8a3fd2cee79e5c3d186.txt",
     "index.html": "/fairavedemos/index.html",
-    "main.2b550390.css.map": "/fairavedemos/static/css/main.2b550390.css.map",
-    "main.d3cee006.js.map": "/fairavedemos/static/js/main.d3cee006.js.map",
+    "main.dcf62a37.css.map": "/fairavedemos/static/css/main.dcf62a37.css.map",
+    "main.dee7996b.js.map": "/fairavedemos/static/js/main.dee7996b.js.map",
     "787.654a28c9.chunk.js.map": "/fairavedemos/static/js/787.654a28c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b550390.css",
-    "static/js/main.d3cee006.js"
+    "static/css/main.dcf62a37.css",
+    "static/js/main.dee7996b.js"
   ]
 }
