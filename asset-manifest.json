@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/fairavedemos/static/css/main.5fd53d95.css",
-    "main.js": "/fairavedemos/static/js/main.c40f7bde.js",
-    "static/js/787.654a28c9.chunk.js": "/fairavedemos/static/js/787.654a28c9.chunk.js",
-    "static/media/jed5664.png": "/fairavedemos/static/media/jed5664.b0d6309ae19f8df75929.png",
-    "static/media/fair-ave-window.png": "/fairavedemos/static/media/fair-ave-window.7e60664c402d3f47acb7.png",
-    "static/media/glass-house-nm.gif": "/fairavedemos/static/media/glass-house-nm.5a81f4c24255cd6188e8.gif",
-    "static/media/circus-liquor-memory.gif": "/fairavedemos/static/media/circus-liquor-memory.2624b220f6b26c7d7255.gif",
-    "static/media/cthemess-cover.png": "/fairavedemos/static/media/cthemess-cover.8a3092f49168c5ed3dac.png",
-    "static/media/bordeaux-cover.png": "/fairavedemos/static/media/bordeaux-cover.6f6703d042dfd3275c9f.png",
-    "static/media/mix1.mp3": "/fairavedemos/static/media/mix1.b27518c1d3ec81f379fa.mp3",
-    "static/media/lamb.png": "/fairavedemos/static/media/lamb.0e2b976026e6687eb3c9.png",
-    "static/media/heart.gif": "/fairavedemos/static/media/heart.b535b2abae0d77baefe1.gif",
-    "static/media/sticky.png": "/fairavedemos/static/media/sticky.8fe9eba7f986f9b6b2af.png",
-    "static/media/ytvis-sc.png": "/fairavedemos/static/media/ytvis-sc.90cbf94ebfb826e61233.png",
-    "static/media/bg5x.png": "/fairavedemos/static/media/bg5x.ea78a669ac35d31d25e0.png",
-    "static/media/basic-shit.png": "/fairavedemos/static/media/basic-shit.d7d0fa31ba52ee6300cf.png",
-    "static/media/article.txt": "/fairavedemos/static/media/article.b8a3fd2cee79e5c3d186.txt",
-    "index.html": "/fairavedemos/index.html",
-    "main.5fd53d95.css.map": "/fairavedemos/static/css/main.5fd53d95.css.map",
-    "main.c40f7bde.js.map": "/fairavedemos/static/js/main.c40f7bde.js.map",
-    "787.654a28c9.chunk.js.map": "/fairavedemos/static/js/787.654a28c9.chunk.js.map"
+    "main.css": "/static/css/main.5fd53d95.css",
+    "main.js": "/static/js/main.6ddef597.js",
+    "static/js/787.654a28c9.chunk.js": "/static/js/787.654a28c9.chunk.js",
+    "static/media/jed5664.png": "/static/media/jed5664.b0d6309ae19f8df75929.png",
+    "static/media/fair-ave-window.png": "/static/media/fair-ave-window.7e60664c402d3f47acb7.png",
+    "static/media/glass-house-nm.gif": "/static/media/glass-house-nm.5a81f4c24255cd6188e8.gif",
+    "static/media/circus-liquor-memory.gif": "/static/media/circus-liquor-memory.2624b220f6b26c7d7255.gif",
+    "static/media/cthemess-cover.png": "/static/media/cthemess-cover.8a3092f49168c5ed3dac.png",
+    "static/media/bordeaux-cover.png": "/static/media/bordeaux-cover.6f6703d042dfd3275c9f.png",
+    "static/media/mix1.mp3": "/static/media/mix1.b27518c1d3ec81f379fa.mp3",
+    "static/media/lamb.png": "/static/media/lamb.0e2b976026e6687eb3c9.png",
+    "static/media/heart.gif": "/static/media/heart.b535b2abae0d77baefe1.gif",
+    "static/media/sticky.png": "/static/media/sticky.8fe9eba7f986f9b6b2af.png",
+    "static/media/ytvis-sc.png": "/static/media/ytvis-sc.90cbf94ebfb826e61233.png",
+    "static/media/bg5x.png": "/static/media/bg5x.ea78a669ac35d31d25e0.png",
+    "static/media/basic-shit.png": "/static/media/basic-shit.d7d0fa31ba52ee6300cf.png",
+    "static/media/article.txt": "/static/media/article.b8a3fd2cee79e5c3d186.txt",
+    "index.html": "/index.html",
+    "main.5fd53d95.css.map": "/static/css/main.5fd53d95.css.map",
+    "main.6ddef597.js.map": "/static/js/main.6ddef597.js.map",
+    "787.654a28c9.chunk.js.map": "/static/js/787.654a28c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd53d95.css",
-    "static/js/main.c40f7bde.js"
+    "static/js/main.6ddef597.js"
   ]
 }
