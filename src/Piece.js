@@ -10,6 +10,7 @@ import Draggable, { DraggableCore } from 'react-draggable';
 import Parallax from 'react-rellax';
 import useList from './useList';
 import useFocus from './useFocus';
+import BandcampWidget from './bandCamp';
 
 const Piece = (props) => {
   const pieces = props.pieces;
@@ -18,7 +19,9 @@ const Piece = (props) => {
     <React.Fragment>
       {pieces.map((piece) => (
         <div className='piece-preview' id={piece.title} key={piece.id}>
-          <img src={piece.src} alt={piece.title} />
+          <a href={piece.link}>
+            <img src={piece.src} alt={piece.title} />
+          </a>
         </div>
       ))}
     </React.Fragment>
@@ -58,7 +61,8 @@ const DragPiece = (props) => {
   const handleClick = (e) => {
     // setFocus(e.target.id);
     // makeElement(props.name[e.target.alt]);
-    console.log(e.target.id);
+    // console.log(e.target.id);
+    window.open(e.target.id);
   };
 
   // useFocus(e.target.id);
@@ -67,9 +71,9 @@ const DragPiece = (props) => {
     <React.Fragment>
       {pieces.map((piece) => (
         <div className='piece-preview' id={piece.title} key={piece.id}>
-          <Parallax speed={Math.random() * 4}>
+          <Parallax speed={Math.random() * 2}>
             <Draggable onStart={handleStart} onStop={handleStop}>
-              <img src={piece.src} alt={piece.title} id={piece.id} />
+              <img src={piece.src} alt={piece.title} id={piece.link} />
             </Draggable>
           </Parallax>
         </div>
@@ -77,5 +81,19 @@ const DragPiece = (props) => {
     </React.Fragment>
   );
 };
+
+// const DragBc = () => {
+//   return (
+//     <React.Fragment>
+//       <div className='bc-preview'>
+//         <Parallax speed={Math.random() * 2}>
+//           <Draggable>
+//             <BandcampWidget></BandcampWidget>
+//           </Draggable>
+//         </Parallax>
+//       </div>
+//     </React.Fragment>
+//   );
+// };
 
 export { Piece, DragPiece, FocusPiece };

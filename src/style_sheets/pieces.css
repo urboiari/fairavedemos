@@ -7,11 +7,19 @@
 #AB1 {
   position: absolute;
   overflow: hidden;
-  height: 370%;
+  height: 450%;
   width: 100vw;
   margin: -1em auto;
   z-index: 2;
 }
+
+/* .AB > .piece-preview {
+  transition: all 0.2s ease-in-out;
+}
+
+.AB > .piece-preview:hover {
+  transform: scale(1.005);
+} */
 
 .AB > #sticky img {
   position: absolute;
@@ -25,15 +33,15 @@
   position: absolute;
   /* height: 7%; */
   width: 91vw;
-  top: 70vh;
+  top: 80vh;
   left: 5vw;
   z-index: -11;
 }
 
 .AB > #bordeaux_cover img {
   position: absolute;
-  width: 200px;
-  top: 118vh;
+  width: 300px;
+  top: 130vh;
   left: 5vw;
 }
 
@@ -41,7 +49,7 @@
   position: absolute;
   /* height: 10%; */
   width: 113vw;
-  top: 130vh;
+  top: 180vh;
   left: 10vw;
 }
 
@@ -49,15 +57,51 @@
   /* display: none; */
   position: absolute;
   width: 300px;
-  top: 200vh;
+  top: 240vh;
   right: 5vw;
 }
 
 .AB > #balloon_heart img {
   position: absolute;
   width: 113vw;
-  top: 160vh;
+  top: 270vh;
   right: 20vw;
+}
+
+.AB > #circus img {
+  position: absolute;
+  width: 40vw;
+  top: 290vh;
+  right: 5vw;
+}
+
+.AB > #basicShit img {
+  display: none;
+  position: absolute;
+  width: 120vw;
+  top: 380vh;
+  left: 20vw;
+}
+
+.AB > #window img {
+  position: absolute;
+  width: 70vw;
+  top: 400vh;
+  right: 2vw;
+}
+
+.AB > #jed5664 img {
+  position: absolute;
+  width: 113vw;
+  top: 350vh;
+  right: 20vw;
+}
+
+.AB > .bc-preview {
+  position: absolute;
+  width: 100%;
+  right: -50vw;
+  bottom: 0;
 }
 
 #AB3 {
@@ -83,7 +127,7 @@
   }
 
   #AB1 {
-    height: 450%;
+    height: 350%;
   }
 
   .AB > #house_gif img {
@@ -94,7 +138,7 @@
   .AB > #sticky img {
     position: absolute;
     width: 500px;
-    left: 32vw;
+    left: 29vw;
     top: 2vw;
     z-index: -10;
   }
@@ -111,8 +155,8 @@
   .AB > #bordeaux_cover img {
     position: absolute;
     width: 700px;
-    top: 20vw;
-    left: 45vw;
+    top: 9vw;
+    left: 58vw;
   }
 
   .AB > #lamb img {
@@ -120,7 +164,7 @@
     /* height: 10%; */
     width: 350px;
     top: 30vw;
-    left: 30vw;
+    left: 15vw;
   }
 
   .AB > #cthemess_cover img {
@@ -135,21 +179,50 @@
     position: absolute;
     width: 55vw;
     top: 48vw;
-    right: -5vw;
+    left: -15vw;
+  }
+
+  .AB > #circus img {
+    position: absolute;
+    width: 25vw;
+    top: 50vw;
+    right: 20vw;
+  }
+
+  .AB > #basicShit img {
+    display: none;
+    position: absolute;
+    width: 120vw;
+    top: 120vh;
+    left: 20vw;
+  }
+
+  .AB > #window img {
+    position: absolute;
+    width: 15vw;
+    top: 58vw;
+    right: 48vw;
+  }
+
+  .AB > #jed5664 img {
+    position: absolute;
+    width: 30vw;
+    top: 70vw;
+    right: 10vw;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   #AB1 {
-    height: 330%;
+    height: 220%;
   }
 }
 
-@media only screen and (min-width: 760px) {
+/* @media only screen and (min-width: 760px) {
   #AB1 {
-    height: 280%;
+    height: 200%;
   }
   .back {
     display: none;
   }
-}
+} */

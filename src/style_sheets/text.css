@@ -4,6 +4,7 @@ p {
   font-weight: 300;
   margin: 25px;
   text-align: justify;
+  line-height: 130%;
 }
 
 h4 {
@@ -16,7 +17,7 @@ h4 {
 }
 
 h5 {
-  font-size: 14pt;
+  font-size: 12pt;
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 200;
   font-style: italic;
@@ -31,7 +32,7 @@ h5 {
 
 @media only screen and (min-width: 990px) {
   .article {
-    width: 30vw;
+    width: 50vw;
     margin-left: 1vw;
     margin-top: 2vw;
   }

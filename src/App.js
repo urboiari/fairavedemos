@@ -2,6 +2,7 @@ import './style_sheets/App.css';
 import { AB1, AB3, ABX } from './Artboards';
 import Article, { P1, P2, P3, P4, P5 } from './Article';
 import background from './more-assets/bg5x.png';
+import mixdownOne from './music/mix1.mp3';
 import Footer from './Footer';
 import { Focus } from './Focus';
 import React, { useRef, useEffect, useState } from 'react';
@@ -12,6 +13,7 @@ function App() {
     <div className='App'>
       <div className='content'>
         <img id='bg' src={background} alt='background' />
+        {/* <audio autoplay loop src={mixdownOne}></audio> */}
         <AB1 />
         <AB3 position='front' />
         {/* <P1 />

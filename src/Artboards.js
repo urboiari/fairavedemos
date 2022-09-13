@@ -3,21 +3,23 @@ import { useState, useEffect } from 'react';
 import { Piece, DragPiece } from './Piece';
 import { Focus } from './Focus';
 import useList from './useList';
+import BandcampWidget from './bandCamp';
 
 //AB1 is made up of draggable artboards (main board that floats over text)
 const AB1 = () => {
-  const pieces = useList().slice(0, 6);
+  const pieces = useList().slice(0, 10);
 
   return (
     <div className='AB' id='AB1'>
       <DragPiece pieces={pieces} />
+      <BandcampWidget></BandcampWidget>
     </div>
   );
 };
 
 // AB3 is made up of static components (flagship piece)
 const AB3 = (position) => {
-  const pieces = useList().slice(6);
+  const pieces = useList().slice(10);
 
   return (
     <div className={'AB ' + position.position} id='AB3'>
