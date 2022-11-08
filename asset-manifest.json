@@ -1,38 +1,42 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bff9aa8.css",
-    "main.js": "/static/js/main.5c6d3607.js",
-    "static/js/787.422a7e9f.chunk.js": "/static/js/787.422a7e9f.chunk.js",
+    "main.css": "/static/css/main.45211e4e.css",
+    "main.js": "/static/js/main.e888f567.js",
+    "static/js/787.654a28c9.chunk.js": "/static/js/787.654a28c9.chunk.js",
     "static/media/glowing_teeth.png": "/static/media/glowing_teeth.3719e0c1e449e1f2f5ed.png",
     "static/media/person_solid.gif": "/static/media/person_solid.f3dafaf7077cab395237.gif",
     "static/media/jed5664.png": "/static/media/jed5664.b0d6309ae19f8df75929.png",
+    "static/media/ari.gif": "/static/media/ari.916ed89182f9be1345a0.gif",
     "static/media/wilson_park.png": "/static/media/wilson_park.0bc35822296e203b3bd0.png",
     "static/media/fair-ave-window.png": "/static/media/fair-ave-window.7e60664c402d3f47acb7.png",
     "static/media/desk.gif": "/static/media/desk.1aeeed9c8b0a5254d364.gif",
     "static/media/willie.png": "/static/media/willie.295474816fb95274a0c3.png",
     "static/media/glass-house-nm.gif": "/static/media/glass-house-nm.5a81f4c24255cd6188e8.gif",
+    "static/media/make-believe.png": "/static/media/make-believe.2340a90ad013fb16ecba.png",
     "static/media/laura.png": "/static/media/laura.fb5f7293d87363f50bc5.png",
     "static/media/circus-liquor-memory.gif": "/static/media/circus-liquor-memory.2624b220f6b26c7d7255.gif",
     "static/media/chick_glass.gif": "/static/media/chick_glass.05a945520c66b2e729c5.gif",
     "static/media/cthemess-cover.png": "/static/media/cthemess-cover.8a3092f49168c5ed3dac.png",
     "static/media/bordeaux-cover.png": "/static/media/bordeaux-cover.6f6703d042dfd3275c9f.png",
     "static/media/mix1.mp3": "/static/media/mix1.b27518c1d3ec81f379fa.mp3",
+    "static/media/cover3.png": "/static/media/cover3.0797abfcd80a48ee0707.png",
     "static/media/lamb.png": "/static/media/lamb.0e2b976026e6687eb3c9.png",
     "static/media/heart.gif": "/static/media/heart.b535b2abae0d77baefe1.gif",
     "static/media/sticky.png": "/static/media/sticky.8fe9eba7f986f9b6b2af.png",
     "static/media/ytvis-sc.png": "/static/media/ytvis-sc.90cbf94ebfb826e61233.png",
     "static/media/youtube_vis2.png": "/static/media/youtube_vis2.bcb0a0954eeb7c498629.png",
+    "static/media/ytvis_3.png": "/static/media/ytvis_3.59df0bd821efa4e9eb9e.png",
     "static/media/bg5x.png": "/static/media/bg5x.ea78a669ac35d31d25e0.png",
     "static/media/inluvthumb.png": "/static/media/inluvthumb.1b6234c0204f0e2e1fab.png",
     "static/media/basic-shit.png": "/static/media/basic-shit.d7d0fa31ba52ee6300cf.png",
     "static/media/article.txt": "/static/media/article.b8a3fd2cee79e5c3d186.txt",
     "index.html": "/index.html",
-    "main.5bff9aa8.css.map": "/static/css/main.5bff9aa8.css.map",
-    "main.5c6d3607.js.map": "/static/js/main.5c6d3607.js.map",
-    "787.422a7e9f.chunk.js.map": "/static/js/787.422a7e9f.chunk.js.map"
+    "main.45211e4e.css.map": "/static/css/main.45211e4e.css.map",
+    "main.e888f567.js.map": "/static/js/main.e888f567.js.map",
+    "787.654a28c9.chunk.js.map": "/static/js/787.654a28c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bff9aa8.css",
-    "static/js/main.5c6d3607.js"
+    "static/css/main.45211e4e.css",
+    "static/js/main.e888f567.js"
   ]
 }
